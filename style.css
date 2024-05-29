@@ -182,6 +182,10 @@ ul li span:hover {
   ul {
     width: 90%;
   }
+
+  ul li::before {
+    left: 20px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -199,6 +203,10 @@ ul li span:hover {
     font-size: 14px;
     padding: 10px 15px 10px 40px;
   }
+
+  ul li::before {
+    left: 15px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -215,5 +223,9 @@ ul li span:hover {
   ul li {
     font-size: 12px;
     padding: 8px 12px 8px 35px;
+  }
+
+  ul li::before {
+    left: 10px;
   }
 }
